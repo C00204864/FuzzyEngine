@@ -1,0 +1,3 @@
+﻿  Game.cpp
+c:\users\liamh\desktop\fuzzyengine\fuzzyengine\game.cpp(12): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+  FuzzyEngine.vcxproj -> C:\Users\liamh\Desktop\FuzzyEngine\Debug\FuzzyEngine.exe
