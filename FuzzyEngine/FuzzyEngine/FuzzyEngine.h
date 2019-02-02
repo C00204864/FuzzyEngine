@@ -9,8 +9,7 @@ public:
 	//Public Functions
 	FuzzyEngine();
 	~FuzzyEngine();
-	void inputForceDistance(float distance);
-	void inputForceSize(int forceSize);
+	void inputData(float distance, int size);
 	int getResponseForceSize();
 
 private:

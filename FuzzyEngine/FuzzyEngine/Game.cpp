@@ -7,9 +7,11 @@ Game::Game() :
 	m_window{ sf::VideoMode{ 1280, 720, 32 }, "Space Station Rescue" },
 	m_exitGame{ false } // When true game will exit 
 {
-	fuzzyEngine.inputForceDistance(100);
-	fuzzyEngine.inputForceSize(45);
+	float dist = 100.f;
+	float size = 45;
+	fuzzyEngine.inputData(dist, size);
 	float x = fuzzyEngine.getResponseForceSize();
+	std::cout << "Distance: " << dist << ", Size: " << size << " - Response: " << x << std::endl;
 }
 
 /// <summary>

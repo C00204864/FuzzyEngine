@@ -1,3 +1,12 @@
-﻿  Game.cpp
-c:\users\liamh\desktop\fuzzyengine\fuzzyengine\game.cpp(12): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
-  FuzzyEngine.vcxproj -> C:\Users\liamh\Desktop\FuzzyEngine\Debug\FuzzyEngine.exe
+﻿  FuzzyEngine.cpp
+c:\users\liamh\desktop\fuzzyengine\fuzzyengine\fuzzyengine\fuzzyengine.cpp(17): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\liamh\desktop\fuzzyengine\fuzzyengine\fuzzyengine\fuzzyengine.cpp(18): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\liamh\desktop\fuzzyengine\fuzzyengine\fuzzyengine\fuzzyengine.cpp(19): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\liamh\desktop\fuzzyengine\fuzzyengine\fuzzyengine\fuzzyengine.cpp(20): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\liamh\desktop\fuzzyengine\fuzzyengine\fuzzyengine\fuzzyengine.cpp(28): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+  Game.cpp
+c:\users\liamh\desktop\fuzzyengine\fuzzyengine\fuzzyengine\game.cpp(12): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\liamh\desktop\fuzzyengine\fuzzyengine\fuzzyengine\game.cpp(13): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+  main.cpp
+  Generating Code...
+  FuzzyEngine.vcxproj -> C:\Users\liamh\Desktop\FuzzyEngine\FuzzyEngine\Debug\FuzzyEngine.exe

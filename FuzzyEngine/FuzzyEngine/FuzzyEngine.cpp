@@ -4,21 +4,20 @@ FuzzyEngine::FuzzyEngine() {}
 
 FuzzyEngine::~FuzzyEngine() {}
 
-void FuzzyEngine::inputForceDistance(float distance)
+void FuzzyEngine::inputData(float distance, int size)
 {
+	// Distance Fuzzification
 	m_distanceIn = distance;
-	near = fuzzyGradeDown(50, 100, distance);
-	middle = fuzzyTrapezoid(80, 130, 150, 200, distance);
-	far = fuzzyGradeUp(180, 230, distance);
-}
+	near = fuzzyGradeDown(75, 125, distance);
+	middle = fuzzyTrapezoid(75, 125, 200, 250, distance);
+	far = fuzzyGradeUp(200, 250, distance);
 
-void FuzzyEngine::inputForceSize(int forceSize)
-{
-	m_forceSizeIn = forceSize;
-	tiny = fuzzyGradeDown(5, 10, forceSize);
-	small = fuzzyTriangle(8, 12, 16, forceSize);
-	medium = fuzzyTrapezoid(15, 20, 25, 30, forceSize);
-	large = fuzzyGradeUp(25, 25, forceSize);
+	// Size Fuzzification
+	m_forceSizeIn = size;
+	tiny = fuzzyGradeDown(5, 10, size);
+	small = fuzzyTrapezoid(5, 10, 15, 20, size);
+	medium = fuzzyTrapezoid(15, 20, 25, 30, size);
+	large = fuzzyGradeUp(25, 30, size);
 }
 
 int FuzzyEngine::getResponseForceSize()
